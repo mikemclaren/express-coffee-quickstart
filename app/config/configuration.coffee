@@ -9,4 +9,6 @@ configFile = 'appConfig.json'
 contents = fs.readFileSync(configFile, "utf8")
 config   = JSON.parse contents
 
+config   = config[process.env.NODE_ENV || "local"]
+
 module.exports = config

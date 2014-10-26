@@ -1,5 +1,14 @@
 {
-  "applicationName": "NodeJS Application",
-  "jwtSecret": "[SECRET GOES HERE]",
-  "port": 3000 
+  "local": {
+    "applicationName": "NodeJS Application",
+    "jwtSecret": "[SECRET GOES HERE]",
+    "port": 3000,
+    "mysql": {
+      "connectionLimit": 10,
+      "host": "localhost",
+      "user": "root",
+      "password": "root",
+      "database": "database"
+    }
+  }
 }
