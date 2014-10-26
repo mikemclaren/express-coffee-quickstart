@@ -1,0 +1,20 @@
+{
+  "name": "bookallu-backend",
+  "version": "0.0.1",
+  "description": "The backend application for Bookallu",
+  "main": "server.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Mclaren",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.3.6",
+    "body-parser": "^1.9.1",
+    "bunyan": "^1.2.1",
+    "cookie-parser": "^1.3.3",
+    "express": "^4.10.0",
+    "express-jwt": "^0.4.0",
+    "mysql": "^2.5.2"
+  }
+}

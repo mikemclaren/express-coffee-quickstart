@@ -1,0 +1,5 @@
+{
+  "applicationName": "NodeJS Application",
+  "jwtSecret": "[SECRET GOES HERE]",
+  "port": 3000 
+}
