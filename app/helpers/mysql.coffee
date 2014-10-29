@@ -1,6 +1,7 @@
 mysql   = require 'mysql'
 Promise = require 'bluebird'
 configs = require '../config/configuration'
+log     = require './bunyan'
 
 # Create the pool based on configurations.
 pool = mysql.createPool configs.mysql
