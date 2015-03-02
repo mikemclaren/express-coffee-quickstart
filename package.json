@@ -1,7 +1,7 @@
 {
-  "name": "bookallu-backend",
+  "name": "express-coffee-quickstart",
   "version": "0.0.1",
-  "description": "The backend application for Bookallu",
+  "description": "A quick app with Express. Written in Coffeescript.",
   "main": "server.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
